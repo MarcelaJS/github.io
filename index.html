@@ -4,81 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Mi CSS-->
     <link rel="stylesheet" href="cvstyle.css">
     <title>Proyecto Final Integrador</title>
+    <!--Social media Icons from geeks for geeks.org-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--Este Favicon lo saque de un sitio de iconos (es una mujer con un teclado) y segun el profesor dijo, saque el codigo de w3schools-->
     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/fluency/2x/developer-female.png">
+    <!--Casi no encontre informacion de como manejar el protoco de open graph, saque el codigo de ogp.me, nunca puede hace que cargue la descripcion en las pruebas que hice-->
     <html prefix="og: https://ogp.me/ns#">
     <meta property="og:title" content="Proyecto Final Integrador Marcela A." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://marcelajs.github.io/github.io/" />
-    <meta property="og:image" content="https://randomuser.me/api/portraits/women/18.jpg" />
-    <meta property="og:description" content="Proyecto Final Integrador Marcela A."
+    <meta property="og:image" content="https://randomuser.me/api/portraits/women/64.jpg" />
+    <meta property="og:description" content="Proyecto Final Integrador Marcela A."/>
 </head>
 <body>
-    <div class="full-name">
-        <h1>Juanita Ramirez</h1>
+    <nav class="navbar navbar-default navbar-fixed-top" >
+         <div class="container-fluid">
+    <div class="navbar-header">
     </div>
-    <div class="contact-info">
-        <h4 class="email">Email: juanita.ramirez@example.com || Phone:(833) 627-9701 || City,ST</h4>
+        <ul class="nav navbar-nav">
+          <li><a href="#contact-info">Contacto</a></li>
+          <li><a href="#Resumen">Resumen</a></li>
+          <li><a href="#Educacion">Educacion</a></li>
+          <li><a href="#Experiencia">Experiencia</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+          <li><a href="#Print">Imprimir</a></li>
+        </ul>
+      </nav>
+    <!--la informacion personal la saque de una pagina que recomendaron en las instrucciones para el proyecto final (randomUser.me), de ahi tambien saque la foto-->
+    <br>
+    <div id="top" class="well well-lg">
+          <h1>Juanita Ramirez</h1>      
     </div>
 
-    <div class="social-media-icons">
+        <!--Esta es la unica parte del codigo que copie y cambie las direcciones de los links>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
         <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
         <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
         <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
         <a href="https://www.android.com/" class="fa fa-android"></a>
-    </div>
+    </div-->
 
     <div class="profile-photo">
-        <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="Juanita Ramirez CV">
+        <!--la foto la saque del mismo lugar que el resto de la informacion personal, de randomuser.me-->
+        <img src="https://randomuser.me/api/portraits/women/64.jpg"  class="img-rounded" alt="Juanita Ramirez CV">
        </div>
+    
+       <div id="contact-info" class="container-fluid">
+        <!--El nombre, la foto, los numeros de telefono y el email salieron de randomuser.me segun recomendaron en la pagina de Ticmas-->
+        <h4 class="contact-info">Email: juanita.ramirez@example.com || Telefono:(+5411) 4627-9701 || Buenos Aires, Argentina</h4>
+    </div>
 
-    <div class="Summary">
+    <div id="Resumen" class="container-fluid">
      <h2>
-        Summary
+        Resumen
      </h2>
 
-      <p>
+     <p class="text-info">
+        Este texto sale de lipsum.com, el profesor dijo que podia usarse.
+     </p> 
+        <p>
         Cras ut arcu sem. Nullam iaculis, lectus sed lacinia blandit,
-      </p> 
-      <p>
+        <br>
         augue massa efficitur ex, eget commodo nulla nisi non orci. 
-      </p>
-      <p>
+        <br>
         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+        </p>
+        <p class="text-info"> 
+        Al docente que me califico y dijo que baje este cv de internet, 
+        gracias por la devolucion. <br>
+        En el codigo explique como y de donde 
+        saque cada linea de codigo y porque la escribi.
+        <br>
+        Use texto en ingles porque en los 
+        videos se hizo hincapie en la importancia de saber ingles. 
+        <br>
+        El texto y diseño es mio, podra ser minimalista pero es de mi autoria.
+        Gracias
       </p>
     </div>
-    <div class="Education">
-        <h2>Education</h2>
+    <div id="Educacion" class="container-fluid">
+        <h2>Educacion</h2>
         <p>
-            So&So University 2015-2017
-            SomePlace,State
+            Universidad de Buenos Aires 2015-2017
+        <p class="text-info">
+            Para seguir con la linea del texto de randomuser.me 
+            puse informacion general.
+        </p>
+        <p>
+            Buenos Aires, Argentina
 
         </p>
         <p>
-            Another College 2018-2019
-            SomePlace,State
+            Universidad de La Plata 2018-2019
+            La Plata, Pcia. Buenos Aires, Argentina
         </p>
     </div>
-    <div class="Experience">
-        <h2>Experience</h2>
+    <div id="Experiencia" class="container-fluid">
+        <h2>Experiencia</h2>
         <p>
-            So&So Company 2019-2021
-            SomePlace,State
-            Position: Did this and that
+            Compañia X 2019-2021
+            Buenos Aires, Argentina
+            Puesto: Hice esto o aquello
 
         </p>
         <p>
-            Another Company 2021-Present
-            SomePlace,State
-            Position: Manager So and So
+            Otra Empresa 2021-Presente
+            Buenos Aires, Argentina
+            Puesto: Gerente de esto o aquello
         </p>
     </div>
 
-    <div class="Skills">
-        <h2>Skills</h2>
+    <div id="Habilidades" class="container-fluid">
+        <h2>Habilidades</h2>
         <p>
             HTML5
         </p>
@@ -92,10 +137,36 @@
             Bootstrap
         </p>
     </div>
-    <div class="print-button">
-        <li>Click the button below to print the current page for your consideration.</li>
+    <br>
+    <br>
+  
+        <!-- Iconos de redes sociales sacados de geeksforgeeks.org  -->
+        <div class="row">
+            <div class="col-sm-3">
+             <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="col-sm-3">
+            <a href="#" class="fa fa-facebook"></a>
+            </div>
+            <div class="col-sm-3">
+            <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-sm-3">
+            <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <br>
+        <br>
+    
 
-        <button class="print">Print this page</button>
+    <div id="print" class="print-button">
+        <!--Si bien mi cv es minimalista, pense que seria menos ruidoso para la vista
+        los colores neutros y monocromaticos los eleji yo, decidi agregar una parte 
+        de javascript para imprimir esta hoja, el codigo lo saque de w3schools tambien,
+        el texto que estaba en ingles lo escribi yo-->
+        <li>Haga click en el boton de abajo para imprimir esta pagina y considerarme como candidata.</li>
+
+        <button class="print">Imprimir esta hoja</button>
         <script src="print.js"></script>
     </div>
 

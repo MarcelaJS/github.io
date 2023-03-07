@@ -1,36 +1,38 @@
 body {
-    background-color: whitesmoke;
+  background-image: url("https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw5NjcxMDg4fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-position: right;
   }
   
   h1 {
     font-family: Verdana;
     color: rgb(110, 108, 108);
-    text-align: center;
+    text-align: left;
   }
 
   h2 {
     font-family: verdana;
     color: rgb(132, 131, 131);
-    text-align: center;
+    text-align: left;
   }
 
   h3 {
     font-family: verdana;
     color: dimgray;
-    text-align: center;
+    text-align: left;
   }
 
   h4 {
     font-family: verdana;
     color: rgb(77, 75, 75);
-    text-align: center;
+    text-align: left;
   }
   
   p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(87, 86, 86);
-    text-align: center;
+    text-align: left;
   }
   img {
     display: block;
@@ -43,7 +45,7 @@ body {
     font-family: verdana;
     font-size: 15px;
     color:rgb(132, 131, 131);
-    text-align: center;
+    text-align: left;
   }
   button {
     padding: 5px;
@@ -54,13 +56,16 @@ body {
     color:#767675;
   }
   /*social media icons styles*/
+  /*este comentario lo hice yo para saber como cambiar los iconos 
+  para hacerlos ovales, el codigo para los iconos lo copie de una pagina */
+  
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 15%;
+    width: 20%;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 5px;
   }
   
   .fa:hover {
@@ -70,29 +75,25 @@ body {
   .fa-facebook {
     background: #a8a8a6;
     color: white;
-    border-radius:50%
+    border-radius:20%
   }
   
   .fa-twitter {
     background: #a8a8a6;
     color: white;
-    border-radius:50%
+    border-radius:20%
   }
 
   .fa-linkedin {
     background: #a8a8a6;
     color: white;
-    border-radius:50%
+    border-radius:20%
   }
 
   .fa-instagram {
     background: #a8a8a6;
     color: white;
-    border-radius:50%
+    border-radius:20%
   }
 
-  .fa-android {
-    background: #a8a8a6;
-    color: white;
-    border-radius:50%
-  }
+ 
